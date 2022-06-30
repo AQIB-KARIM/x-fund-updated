@@ -24,7 +24,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 50px 112px;
+    padding: 50px 20px;
     font-family: 'poppins';
     flex-direction: column;
     border-right: 1px solid #65AFF4;
@@ -44,6 +44,7 @@
     p {
         text-align: center;
         font-weight: 500;
+        max-width: 150px;
     }
 
     button {
@@ -62,7 +63,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 40px 70px;
+    padding: 40px 20px;
     font-family: 'poppins';
     flex-direction: column;
     border-right: 1px solid #65AFF4;
@@ -76,12 +77,14 @@
     h3 {
         text-align: center;
         font-size: 40px;
-        padding-top: 10px;
+        padding-top: 20px;
     }
 
     p {
         text-align: center;
         font-weight: 500;
+        max-width: 250px;
+        margin-top: 7px;
     }
 
     button {
@@ -98,7 +101,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 40px 63px;
+    padding: 40px 20px;
     font-family: 'poppins';
     flex-direction: column;
 
@@ -118,6 +121,8 @@
     p {
         text-align: center;
         font-weight: 500;
+        max-width: 250px;
+        margin-top: 20px;
     }
 
     button {
@@ -127,6 +132,5 @@
         color: white;
         border-radius: 15px;
         font-family: 'poppins';
-        margin-top: 4px;
     }
 }

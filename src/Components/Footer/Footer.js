@@ -12,7 +12,7 @@ import './Footer.scss'
 const Footer = () => {
   return (
     <footer>
-      <Container>
+      <Container fluid style={{maxWidth:"1400px"}}>
         <Row>
           <Col md={4}>
             <div className={'footer_desc'}>
@@ -32,7 +32,7 @@ const Footer = () => {
 
 
           </Col>
-          <Col md={3}>
+          <Col md={2}>
             <div className='quick_links'>
               <h6>Quick Links</h6>
               <ul>
@@ -44,7 +44,7 @@ const Footer = () => {
               </ul>
             </div>
           </Col>
-          <Col md={3}>
+          <Col md={2}>
             <div className='address_container'>
               <h6>Address</h6>
               <ul>
@@ -60,15 +60,13 @@ const Footer = () => {
               </ul>
             </div>
           </Col>
-          <Col md={2}>
+          <Col md={3}>
             <div className='subscribe_container'>
               <h6>Subscribe to get the updates</h6>
               <div className='input_container'>
                 <input type='email' placeholder='Email address' />
                 <button>Subscribe</button>
               </div>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's, when an unknown printer took a galley of type
-                and scrambled it to make a type specimen book</p>
             </div>
           </Col>
         </Row>

@@ -13,6 +13,17 @@
 
     .partners_container {
         padding: 40px 50px;
+
+        img {
+            width: 100%;
+            max-width: 380px;
+            object-fit: contain;
+            margin: auto;
+        }
+
+        // .slick-slide img {
+        //     margin: 0 auto !important;
+        // }
     }
 
     h3 {

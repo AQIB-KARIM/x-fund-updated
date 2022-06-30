@@ -26,8 +26,18 @@
         margin-bottom: 0rem !important;
     }
 
+    .teams_main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     .teams_container {
         margin-top: 50px;
+        img{
+            width: 100%;
+            object-fit: contain;
+        }
     }
 
     .teams_learn_more_cotnainer {

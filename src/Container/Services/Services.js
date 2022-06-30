@@ -21,7 +21,7 @@ const Services = () => {
                     <Col md={4}>
                         <div className='nft_fund_container'>
                             <img src={NFTlogo} />
-                            <h3>NFT FUND</h3>
+                            <h3>NFT <br/> FUND</h3>
                             <p>NFT fund will focus solely on Non-Fungible Tokens (NFT).</p>
                             <button>Learn More</button>
                         </div>
@@ -30,7 +30,7 @@ const Services = () => {
                     <Col md={4}>
                         <div className='crypto_currency_container'>
                             <img src={cryptocurrencylogo} />
-                            <h3>Cryptocurrency Fund</h3>
+                            <h3>Cryptocurrency <br/> Fund</h3>
                             <p>Our experienced analysts manage our Cryptocurrency Fund with the goal of assisting them in earning profits</p>
                             <button>Learn More</button>
                         </div>

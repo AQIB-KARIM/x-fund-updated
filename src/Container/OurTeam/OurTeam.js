@@ -12,7 +12,7 @@ const OurTeam = () => {
             <Container>
                 <Row>
                     <Col md={12}>
-                        <div className='d-flex justify-content-center align-items-center'>
+                        <div className='teams_main'>
                             {
                                 teamsData.map((data, index) => (
                                     <div className='teams_container' key={index}>
