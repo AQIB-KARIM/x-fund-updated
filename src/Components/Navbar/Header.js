@@ -7,23 +7,6 @@ import Logo from '../../assets/images/logo.png'
 const Header = () => {
     return (
         <div className='bg_container'>
-            {/* <Navbar>
-                <Container style={{maxWidth:"90%"}}>
-                    <Navbar.Brand href="/">
-                        <img src={Logo} />
-                    </Navbar.Brand>
-                    <Nav className="mr-auto">
-                        <Nav.Link href="#home">Home</Nav.Link>
-                        <Nav.Link href="#features">Features</Nav.Link>
-                        <Nav.Link href="#pricing">Our Projects</Nav.Link>
-                        <Nav.Link href="#pricing">Team</Nav.Link>
-                        <Nav.Link href="#pricing">Contact</Nav.Link>
-                        <Nav.Link href="#pricing">
-                            <button>Sign up/Login</button>
-                        </Nav.Link>
-                    </Nav>
-                </Container>
-            </Navbar> */}
 
             <Navbar expand="lg">
                 <Container style={{ maxWidth: "90%" }}>
@@ -35,10 +18,10 @@ const Header = () => {
                         <Nav className="ml-auto">
                             <Nav.Link href="#home">Home</Nav.Link>
                             <Nav.Link href="#features">Features</Nav.Link>
-                            <Nav.Link href="#pricing">Our Projects</Nav.Link>
-                            <Nav.Link href="#pricing">Team</Nav.Link>
-                            <Nav.Link href="#pricing">Contact</Nav.Link>
-                            <Nav.Link href="#pricing">
+                            <Nav.Link href="#projects">Our Projects</Nav.Link>
+                            <Nav.Link href="#team">Team</Nav.Link>
+                            <Nav.Link href="#contact">Contact</Nav.Link>
+                            <Nav.Link href="#login">
                                 <button>Sign up/Login</button>
                             </Nav.Link>
                         </Nav>
