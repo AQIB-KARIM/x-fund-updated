@@ -13,7 +13,7 @@ const Footer = () => {
   return (
     <footer>
       <Container fluid style={{maxWidth:"1400px"}}>
-        <Row>
+        <Row className="justify-content-center">
           <Col md={4}>
             <div className={'footer_desc'}>
               <img src={FooterLogo} alt="logo" />

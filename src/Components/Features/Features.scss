@@ -1,12 +1,8 @@
 .features_bg_color {
     background-color: #65AFF4;
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
     font-family: 'poppins';
-    padding: 20px 90px;
+    padding: 20px 10px;
     margin-top: 90px;
     padding-bottom: 50px;
 
@@ -22,6 +18,7 @@
         font-weight: 400;
         text-align: center;
         max-width: 864px;
+        margin: auto;
         color: white;
         font-weight: 500;
     }
@@ -30,10 +27,6 @@
         background-color: white;
         border-radius: 15px;
         padding: 30px 40px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
         margin-top: 30px;
         width: 100%;
         max-width: 338px;
@@ -60,6 +53,7 @@
             border-radius: 15px;
             font-family: 'poppins';
             margin: 0 auto;
+            margin-top: 20px;
             display: flex;
             box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
 
@@ -71,7 +65,9 @@
 
         &:hover {
             transition: all 0.5s ease;
-            box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+            transform: translateY(30px);
+            transition: all 0.5s ease-in-out;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
         }
     }
 

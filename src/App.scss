@@ -53,7 +53,7 @@ body {
     }
 
     .x-house_nft_container p {
-        margin-top: 10px !important;
+        margin-top: 6px !important;
     }
 
     // Teams 
@@ -66,6 +66,25 @@ body {
     .input_container {
         button {
             margin: 10px 0px !important
+        }
+    }
+
+    // Footer
+    .footer_desc {
+        p {
+            font-size: 12px !important;
+        }
+    }
+
+    footer {
+        h6 {
+            font-size: 15px !important;
+        }
+
+        ul {
+            li {
+                font-size: 12px !important;
+            }
         }
     }
 }
@@ -104,7 +123,7 @@ body {
 
     .nft_fund_container {
         button {
-            margin-top: 45px;
+            margin-top: 45px !important;
         }
     }
 
@@ -114,6 +133,30 @@ body {
         max-width: 290px !important;
     }
 
+    .input_container {
+        input {
+            width: 100% !important;
+        }
+    }
+
+    // Footer
+    .footer_desc {
+        p {
+            font-size: 12px !important;
+        }
+    }
+
+    footer {
+        h6 {
+            font-size: 15px !important;
+        }
+
+        ul {
+            li {
+                font-size: 12px !important;
+            }
+        }
+    }
 }
 
 @media(max-width: 768px) {
@@ -122,9 +165,32 @@ body {
     .nft_feature_container {
         max-width: 270px !important;
     }
+
+
+    .input_container {
+        input {
+            width: 100% !important;
+        }
+    }
+
+    .legal_fund_container {
+        padding: 50px 35px !important;
+    }
+
+    .x-house_nft_container{
+        button{
+            position: relative;
+            bottom: 2px !important;
+        }
+    }
 }
 
 @media(max-width: 767px) {
+
+
+    .legal_fund_container {
+        padding: 50px 45px !important;
+    }
 
     .nft_feature_container {
         button {
@@ -133,37 +199,70 @@ body {
     }
 
     .features_bg_color {
-        p{
+        p {
             font-size: 10px !important;
         }
     }
 
-    .services_container h3{
-        font-size: 39px !important; 
-    }
-    .services_container p{
-        font-size: 14px;
+    .services_container {
+        padding: 30px 30px;
     }
 
-    
+    .services_container h3 {
+        font-size: 39px !important;
+    }
+
+    .services_container p {
+        font-size: 15px !important;
+    }
+
+
     .nft_fund_container,
     .crypto_currency_container,
     .x-house_nft_container {
-       border: none !important;
+        border: none !important;
+    }
+
+    .nft_fund_container {
+        button {
+            margin-top: 20px !important;
+        }
     }
 
     .partners_bg_image {
-        h3{
+        h3 {
             font-size: 30px !important;
         }
     }
 
-    .partners_container{
+    .partners_container {
         padding: 40px 0px !important;
-        img{
+
+        img {
             width: 100% !important;
             max-width: 700px !important;
             min-width: 128px !important;
+        }
+    }
+
+    .input_container {
+        padding-bottom: 10px !important;
+
+        button {
+            padding: 4px 20px;
+        }
+    }
+
+    .teams_learn_more_cotnainer {
+        button {
+            padding: 7px 20px !important;
+        }
+    }
+
+
+    .input_container {
+        input {
+            width: 100% !important;
         }
     }
 }

@@ -11,10 +11,10 @@ import './Home.scss'
 
 const Home = () => {
     return (
-        <React.Fragment>
-            <Container fluid>
+        <div style={{overflow:"hidden"}}>
+            {/* <Container fluid>
                 <Row>
-                    <Col className='p-0' md={12} style={{overflow:'hidden'}}>
+                    <Col className='p-0' md={12} style={{overflow:'hidden'}}> */}
                         <Header />
                         <Services />
                         <Features />
@@ -22,10 +22,10 @@ const Home = () => {
                         <OurTeam />
                         <Partners />
                         <Footer />
-                    </Col>
+                    {/* </Col>
                 </Row>
-            </Container>
-        </React.Fragment>
+            </Container> */}
+        </div>
     )
 }
 
