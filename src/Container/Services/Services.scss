@@ -50,11 +50,16 @@
     button {
         background-color: #0364BD;
         padding: 7px 20px;
-        border: none;
+        border: 1px solid #0364BD;
         color: white;
         border-radius: 15px;
         font-family: 'poppins';
         margin-top: 20px;
+        transition: all .5s ease;
+        &:hover{
+            background-color: white;
+            color: #0364BD;
+        }
     }
 }
 
@@ -91,10 +96,14 @@
     button {
         background-color: #0364BD;
         padding: 7px 20px;
-        border: none;
+        border: 1px solid #0364BD;
         color: white;
         border-radius: 15px;
         font-family: 'poppins';
+        &:hover{
+            background-color: white;
+            color: #0364BD;
+        }
     }
 }
 
@@ -129,9 +138,13 @@
     button {
         background-color: #0364BD;
         padding: 7px 20px;
-        border: none;
+        border: 1px solid #0364BD;
         color: white;
         border-radius: 15px;
         font-family: 'poppins';
+        &:hover{
+            background-color: white;
+            color: #0364BD;
+        }
     }
 }

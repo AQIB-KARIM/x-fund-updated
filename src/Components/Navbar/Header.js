@@ -21,9 +21,7 @@ const Header = () => {
                             <Nav.Link href="#projects">Our Projects</Nav.Link>
                             <Nav.Link href="#team">Team</Nav.Link>
                             <Nav.Link href="#contact">Contact</Nav.Link>
-                            <Nav.Link href="#login">
-                                <button>Sign up/Login</button>
-                            </Nav.Link>
+                            <button className='sign_up'>Sign up/Login</button>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

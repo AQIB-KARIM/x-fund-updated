@@ -79,12 +79,13 @@ footer {
 
         .input_container {
             display: flex;
-            flex-flow:wrap;
+            flex-flow: wrap;
 
             input {
                 padding: 5px 10px;
                 background-color: transparent;
                 border: 1px solid #65AFF4;
+                color: white;
             }
 
             button {
@@ -107,5 +108,25 @@ footer {
         padding: 20px 0px;
         text-align: center;
         background-color: #65AFF4;
+    }
+
+    ::placeholder {
+        color: white;
+        opacity: 1;
+        /* Firefox */
+    }
+
+    :-ms-input-placeholder {
+        /* Internet Explorer 10-11 */
+        color: white;
+    }
+
+    ::-ms-input-placeholder {
+        /* Microsoft Edge */
+        color: white;
+    }
+
+    input:focus {
+        outline: none !important;
     }
 }

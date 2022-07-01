@@ -47,14 +47,22 @@
             display: block;
             margin: 0 auto !important;
         }
+
         .learn_more {
             background-color: #0364BD;
             padding: 7px 40px;
-            border: none;
+            border: 1px solid #0364BD;
             color: white;
             border-radius: 15px;
             font-family: 'poppins';
             box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+        }
+
+        button {
+            &:hover {
+                background-color: white;
+                color: #0364BD;
+            }
         }
     }
 }
