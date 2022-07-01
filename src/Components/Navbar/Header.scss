@@ -76,9 +76,14 @@
     button {
         background-color: white;
         padding: 7px 50px;
-        border: none;
+        border: 1px solid #0364BD;
         border-radius: 15px;
         font-family: 'poppins';
+
+        &:hover {
+            background-color: #0364BD;
+            color: white;
+        }
     }
 }
 
