@@ -16,7 +16,7 @@ const OurTeam = () => {
                             {
                                 teamsData.map((data, index) => (
                                     <div className='teams_container' key={index}>
-                                        <img src={data.memberAvatar} />
+                                        <img src={data.memberAvatar} alt='member_avatar' />
                                         <h3>{data.name}</h3>
                                         <p>{data.title}</p>
                                         <p>{data.designation}</p>

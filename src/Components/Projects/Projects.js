@@ -50,7 +50,7 @@ const Projects = () => {
                             {
                                 projectsData.map((projectData, index) => (
                                     <div className='our_projects_container' key={index}>
-                                        <img src={projectData.Avatar} />
+                                        <img src={projectData.Avatar} alt='project_img' />
                                         <p>{projectData.text}</p>
                                     </div>
                                 ))

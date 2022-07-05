@@ -1,6 +1,6 @@
 import React from 'react'
 import './Partners.scss'
-import { Container, Col, Row } from 'react-bootstrap'
+import { Container} from 'react-bootstrap'
 import Slider from "react-slick";
 import { partnersData } from './PartnersData';
 
@@ -53,15 +53,13 @@ const Partners = () => {
                         {
                             partnersData.map((partner, index) => (
                                 <div className='partners_container' key={index}>
-                                    <img src={partner.partnerAvatar} />
+                                    <img src={partner.partnerAvatar} alt='avatar' />
                                 </div>
                             ))
                         }
                     </Slider>
                 </div>
             </Container>
-
-
         </div>
     )
 }

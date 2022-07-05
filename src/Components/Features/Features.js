@@ -1,6 +1,6 @@
 import React from 'react'
 import './Features.scss'
-import { Container, Col, Row } from 'react-bootstrap'
+import { Container } from 'react-bootstrap'
 import Slider from "react-slick";
 import { data } from './featuresData'
 
@@ -54,7 +54,7 @@ const Features = () => {
                         {
                             data.map((featuresData, index) => (
                                 <div className='nft_feature_container' key={index}>
-                                    <img src={featuresData.avatar} />
+                                    <img src={featuresData.avatar} alt='features_avatar' />
                                     <p>{featuresData.text}</p>
                                     <button>Learn More</button>
                                 </div>
