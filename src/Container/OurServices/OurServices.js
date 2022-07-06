@@ -53,7 +53,7 @@ const OurServices = () => {
                                                 when an unknown printer took a galley of type and scrambled it.
                                             </Card.Text>
 
-                                            <button className='mt-1'>Learn More</button>
+                                            <button className='nft_btn'>Learn More</button>
                                         </Card.Body>
                                     </Card>
                                 </Col>
@@ -73,7 +73,7 @@ const OurServices = () => {
                                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry.
 
                                             </Card.Text>
-                                            <button>Learn More</button>
+                                            <button className='crypto_btn'>Learn More</button>
                                         </Card.Body>
                                     </Card>
                                 </Col>
@@ -87,7 +87,7 @@ const OurServices = () => {
                                         </div>
                                         <Card.Img variant="top" src={ServiceImg3} alt='service_logo3' />
                                         <Card.Body>
-                                            <Card.Title>Card Title</Card.Title>
+                                            <Card.Title>X-House NFT Collective (Soon)</Card.Title>
                                             <span>An exclusive NFT Art Collective with only 1111 private members dedicated to NFT collectors and artists.</span>
                                             <Card.Text>
                                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry.
