@@ -4,6 +4,7 @@ import Home from './Container/Home/Home'
 import ContactUs from './Container/ContactUs/ContactUs';
 import OurProjects from './Container/OurProjects/OurProjects';
 import OurServices from './Container/OurServices/OurServices';
+import TeamsInner from './Container/TeamsInner/TeamsInner';
 import {
   BrowserRouter as Router,
   Routes,
@@ -19,6 +20,7 @@ const App = () => {
           <Route path={"/contact"} element={<ContactUs />} />
           <Route path={"/projects"} element={<OurProjects />} />
           <Route path={"/features"} element={<OurServices />} />
+          <Route path={"/teams"} element={<TeamsInner />} />
         </Routes>
       </Router>
     </React.Fragment>

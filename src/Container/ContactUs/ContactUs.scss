@@ -13,7 +13,8 @@
         margin-top: 70px;
         width: 100%;
         border-radius: 10px;
-        box-shadow: #0364BD 5px 0px  15px;
+        height: 100%;
+        box-shadow: rgba(2, 56, 138, 0.3) 0px 20px 12px 0px, rgba(2, 56, 138, 0.3) 0px 3px 7px 0px;
 
         form {
             padding: 50px 30px;
@@ -30,7 +31,8 @@
                 border: 1px solid rgb(230, 227, 227);
                 width: 100%;
                 margin-bottom: 30px;
-                &:focus{
+
+                &:focus {
                     outline: none;
                     border: 1px solid #0364BD;
                 }
@@ -40,7 +42,8 @@
                 width: 100%;
                 padding: 10px 20px;
                 border: 1px solid rgb(230, 227, 227);
-                &:focus{
+
+                &:focus {
                     outline: none;
                     border: 1px solid #0364BD;
                 }
@@ -48,13 +51,21 @@
 
             button {
                 width: 100%;
-                text-align: center;
-                padding: 10px 20px;
+                background-color: #0364BD;
                 margin-top: 20px;
-                border-radius: 10px;
-                border: none;
-                background-color:#0364BD ;
+                padding: 10px 20px;
+                border: 1px solid #0364BD;
                 color: white;
+                border-radius: 10px;
+                font-family: 'poppins';
+                transition: all .5s ease;
+
+                &:hover {
+                    font-family: 'poppins';
+                    background-color: white;
+                    color: #0364BD;
+                    font-weight: 500;
+                }
             }
         }
 

@@ -50,7 +50,9 @@ const ContactUs = () => {
                     </Col>
 
                     <Col md={12}>
-                      <button>Submit</button>
+                      <div className='contact_btn'>
+                        <button>Submit</button>
+                      </div>
                     </Col>
                   </Row>
                 </form>

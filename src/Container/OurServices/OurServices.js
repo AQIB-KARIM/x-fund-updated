@@ -53,7 +53,7 @@ const OurServices = () => {
                                                 when an unknown printer took a galley of type and scrambled it.
                                             </Card.Text>
 
-                                            <button className='mt-2' variant="primary">Learn More</button>
+                                            <button className='mt-1'>Learn More</button>
                                         </Card.Body>
                                     </Card>
                                 </Col>
@@ -73,7 +73,7 @@ const OurServices = () => {
                                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry.
 
                                             </Card.Text>
-                                            <button variant="primary">Learn More</button>
+                                            <button>Learn More</button>
                                         </Card.Body>
                                     </Card>
                                 </Col>
@@ -93,7 +93,7 @@ const OurServices = () => {
                                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry.
 
                                             </Card.Text>
-                                            <button variant="primary">Learn More</button>
+                                            <button className='x-house_btn'>Learn More</button>
                                         </Card.Body>
                                     </Card>
                                 </Col>
