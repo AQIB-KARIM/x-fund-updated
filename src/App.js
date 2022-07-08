@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import './App.scss'
 import Home from './Container/Home/Home'
 import ContactUs from './Container/ContactUs/ContactUs';
@@ -12,8 +12,18 @@ import {
 } from 'react-router-dom';
 
 const App = () => {
+  const [isLoading, setLoading] = useState(true);
+  const spinner = document.getElementById('spinner')
+
+  if (spinner) {
+    setTimeout(() => {
+      spinner.style.display = "none";
+      setLoading(false)
+    }, 2000)
+  }
+
   return (
-    <React.Fragment>
+    !isLoading && (
       <Router>
         <Routes>
           <Route path={"/"} element={<Home />} />
@@ -23,7 +33,7 @@ const App = () => {
           <Route path={"/teams"} element={<TeamsInner />} />
         </Routes>
       </Router>
-    </React.Fragment>
+    )
   )
 }
 

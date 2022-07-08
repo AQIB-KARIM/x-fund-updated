@@ -1,11 +1,18 @@
 import React from 'react'
 import './Header.scss';
+import { useNavigate } from 'react-router-dom';
 import { Navbar, Nav, Container, Row, Col } from 'react-bootstrap';
 import NFtImage from '../../assets/images/NFT-img.png';
 import Logo from '../../assets/images/logo.png'
 import { NavLink } from 'react-router-dom';
 
 const Header = () => {
+   const navigate = useNavigate();
+
+   const goToWeb = () => {
+    window.location.href = "https://app.xfunds.trade/"
+   }
+
     return (
         <div className='bg_container'>
 
@@ -22,7 +29,7 @@ const Header = () => {
                             <NavLink className={'nav-link'} to={"/projects"}>Our Projects</NavLink>
                             <NavLink className={'nav-link'} to={"/teams"}>Team</NavLink>
                             <NavLink className={'nav-link'} to={"/contact"}>Contact</NavLink>
-                            <button className='sign_up'>Sign up/Login</button>
+                            <button onClick={goToWeb} className='sign_up'>Sign up/Login</button>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

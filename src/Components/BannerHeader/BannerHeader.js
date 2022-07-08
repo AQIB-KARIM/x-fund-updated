@@ -20,7 +20,7 @@ const BannerHeader = (props) => {
                             <NavLink className={'nav-link'} to={"/projects"}>Our Projects</NavLink>
                             <NavLink className={'nav-link'} to={"/teams"}>Team</NavLink>
                             <NavLink className={'nav-link'} to={"/contact"}>Contact</NavLink>
-                            <button>Sign up/Login</button>
+                            <button  className='sign_up'>Sign up/Login</button>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

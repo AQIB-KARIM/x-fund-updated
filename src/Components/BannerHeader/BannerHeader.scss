@@ -38,11 +38,17 @@
             color: white;
         }
 
-        button {
+        .sign_up {
             background-color: white;
             padding: 3px 10px;
-            border: none;
+            height: 35px;
+            border: 1px solid #0364BD;
             border-radius: 15px;
+
+            &:hover {
+                background-color: #0364BD;
+                color: white;
+            }
         }
 
 
