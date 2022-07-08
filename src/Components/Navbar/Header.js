@@ -7,11 +7,11 @@ import Logo from '../../assets/images/logo.png'
 import { NavLink } from 'react-router-dom';
 
 const Header = () => {
-   const navigate = useNavigate();
+    const navigate = useNavigate();
 
-   const goToWeb = () => {
-    window.location.href = "https://app.xfunds.trade/"
-   }
+    const goToWeb = () => {
+        window.location.href = "https://app.xfunds.trade/"
+    }
 
     return (
         <div className='bg_container'>
@@ -24,11 +24,11 @@ const Header = () => {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav" className='justify-content-end'>
                         <Nav className="ml-auto">
-                            <NavLink className={'nav-link'} to={"/"}>Home</NavLink>
-                            <NavLink className={'nav-link'} to={"/features"}>Features</NavLink>
-                            <NavLink className={'nav-link'} to={"/projects"}>Our Projects</NavLink>
-                            <NavLink className={'nav-link'} to={"/teams"}>Team</NavLink>
-                            <NavLink className={'nav-link'} to={"/contact"}>Contact</NavLink>
+                            <NavLink className='nav-link' onClick={() => window.location.href = '/'} to={'/'}>Home</NavLink>
+                            <NavLink className='nav-link' onClick={() => window.location.href = '/features'} to={'/features'} >Features</NavLink>
+                            <NavLink className='nav-link' onClick={() => window.location.href = '/projects'} to={'/projects'} >Our Projects</NavLink>
+                            <NavLink className='nav-link' onClick={() => window.location.href = '/teams'} to={'/teams'} >Team</NavLink>
+                            <NavLink className='nav-link' onClick={() => window.location.href = '/contact'} to={'/contact'} >Contact</NavLink>
                             <button onClick={goToWeb} className='sign_up'>Sign up/Login</button>
                         </Nav>
                     </Navbar.Collapse>

@@ -15,12 +15,12 @@ const BannerHeader = (props) => {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav" className='justify-content-end'>
                         <Nav className="ml-auto">
-                            <NavLink className={'nav-link'} to={"/"}>Home</NavLink>
-                            <NavLink className={'nav-link'} to={"/features"}>Features</NavLink>
-                            <NavLink className={'nav-link'} to={"/projects"}>Our Projects</NavLink>
-                            <NavLink className={'nav-link'} to={"/teams"}>Team</NavLink>
-                            <NavLink className={'nav-link'} to={"/contact"}>Contact</NavLink>
-                            <button  className='sign_up'>Sign up/Login</button>
+                        <NavLink className='nav-link' onClick={() => window.location.href = '/'} to={'/'}>Home</NavLink>
+                            <NavLink className='nav-link' onClick={() => window.location.href = '/features'} to={'/features'} >Features</NavLink>
+                            <NavLink className='nav-link' onClick={() => window.location.href = '/projects'} to={'/projects'} >Our Projects</NavLink>
+                            <NavLink className='nav-link' onClick={() => window.location.href = '/teams'} to={'/teams'} >Team</NavLink>
+                            <NavLink className='nav-link' onClick={() => window.location.href = '/contact'} to={'/contact'} >Contact</NavLink>
+                            <button className='sign_up'>Sign up/Login</button>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
