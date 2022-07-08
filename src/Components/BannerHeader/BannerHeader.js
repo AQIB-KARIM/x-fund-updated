@@ -5,6 +5,11 @@ import Logo from '../../assets/images/logo.png'
 import { NavLink } from 'react-router-dom';
 
 const BannerHeader = (props) => {
+    
+    const goToWeb = () => {
+        window.location.href = "https://app.xfunds.trade/"
+    }
+
     return (
         <div className='bg_banner_container'>
             <Navbar expand="lg">
@@ -20,7 +25,7 @@ const BannerHeader = (props) => {
                             <NavLink className='nav-link' onClick={() => window.location.href = '/projects'} to={'/projects'} >Our Projects</NavLink>
                             <NavLink className='nav-link' onClick={() => window.location.href = '/teams'} to={'/teams'} >Team</NavLink>
                             <NavLink className='nav-link' onClick={() => window.location.href = '/contact'} to={'/contact'} >Contact</NavLink>
-                            <button className='sign_up'>Sign up/Login</button>
+                            <button onClick={goToWeb}  className='sign_up'>Sign up/Login</button>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
